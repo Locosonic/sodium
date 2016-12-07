@@ -3,7 +3,7 @@ package nz.sodium;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.HashSet;
-import java.util.Optional;
+import nz.sodium.util.Optional;
 import java.util.Vector;
 
 /**
@@ -442,7 +442,7 @@ public class Stream<A> {
 
     /**
      * Return a stream that only outputs events that have present
-     * values, removing the {@link java.util.Optional} wrapper, discarding empty values.
+     * values, removing the {@link nz.sodium.util.Optional} wrapper, discarding empty values.
      */
     public static <A> Stream<A> filterOptional(final Stream<Optional<A>> ev)
     {

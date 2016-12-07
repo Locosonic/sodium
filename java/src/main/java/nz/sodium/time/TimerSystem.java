@@ -2,7 +2,7 @@ package nz.sodium.time;
 
 import nz.sodium.*;
 import java.util.LinkedList;
-import java.util.Optional;
+import nz.sodium.util.Optional;
 
 public class TimerSystem<T extends Comparable> {
     public TimerSystem(final TimerSystemImpl<T> impl) {

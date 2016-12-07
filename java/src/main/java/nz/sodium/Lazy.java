@@ -1,6 +1,6 @@
 package nz.sodium;
 
-import java.util.Optional;
+import nz.sodium.util.Optional;
 
 /**
  * A representation for a value that may not be available until the current

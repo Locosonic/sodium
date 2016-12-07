@@ -1,7 +1,5 @@
 package nz.sodium;
 
-import java.util.Optional;
-
 /**
  * Represents a value of type A that changes over time. 
  */

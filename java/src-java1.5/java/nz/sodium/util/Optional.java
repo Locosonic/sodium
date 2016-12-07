@@ -1,4 +1,6 @@
-package java.util;
+package nz.sodium.util;
+
+import java.util.NoSuchElementException;
 
 public final class Optional<T>
 {
